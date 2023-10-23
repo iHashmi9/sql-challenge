@@ -12,7 +12,7 @@ Where Date_part('year', hire_date) = 1986;
 
 -- Question 3
 
-Select dm.dept_no, d.dept_name, dm.emp_no AS manager_emp_no,e.last_name AS manager_last_name, e.first_name AS manager_first_name
+Select dm.dept_no, d.dept_name, dm.emp_no AS manager_no,e.last_name AS manager_last_name, e.first_name AS manager_first_name
 From Dept_Manager dm
 Join Departments d ON dm.dept_no = d.dept_no
 Join Employees e ON dm.emp_no = e.emp_no;
