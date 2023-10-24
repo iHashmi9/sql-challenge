@@ -7,4 +7,4 @@
 
 -- Had to shift columns in Dept_Emp, Dept_Manager, and Salaries csv to show emp_no after the other columns to import the files
 
--- utilized ChatGPT to build queries for question 2 (date_time) and question 8 (frequency counts)
+-- utilized ChatGPT to build queries for question 2 (date_time), question 5 (first name, " AND " func/state and "B%"), and question 8 (frequency counts)
